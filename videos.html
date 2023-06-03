@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8dec6c0fd.js" crossorigin="anonymous"></script>
+    <title>Videos</title>
+</head>
+<body>
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="Images/TC-trans copy.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="my-work.html">My Work</a></li>
+                    
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 id="workh1">Videography/Editing</h1>
+            <div class="work-list list2">
+                <div class="work">
+                    <a href="https://youtube.com/shorts/qa60zmMZ460" target="_blank"><video autoplay loop muted plays-inline>
+                        <source class="video" src="Images/iceci-adv1.mp4" type="video/mp4">
+                    </video></a>
+                    <div class="work-des">
+                    <p> A jewelry advertisement made for the company ICECI, designed to mesmerize and allure,
+                        this was a short reel with visuals that envokes a sense of luxury and hip.
+                    </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://youtube.com/shorts/Z_kBVtD3O8I?feature=share" target="_blank"><video autoplay loop muted plays-inline>
+                        <source src="Images/taydoue-edit.mp4" type="video/mp4">
+                    </video></a>
+                    <div class="work-des">
+                    <p> A music video I downloaded and messed around with for the purpose of learning a music video editing style
+                        on after effects
+                    </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://youtu.be/uOMLYke0mVg" target="_blank"><video autoplay loop muted plays-inline>
+                        <source class="video" src="Images/Vak-teaser.mp4" type="video/mp4">
+                    </video></a>
+                    <div class="work-des">
+                    <p>  
+                         A dynamic clothing advertisement for my own clothing brand "VAKRA" that seamlessly blends a retro style, creativity, and visual impact.
+                          Showcasing my expertise in capturing the essence of fashion.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+   
+        function openmenu(){
+       sidemenu.style.right = "0";
+       }
+   
+       function closemenu(){
+       sidemenu.style.right = "-200px";
+       }
+       </script>
+   
+    
+    
+</body>
+</html>

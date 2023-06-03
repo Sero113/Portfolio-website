@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8dec6c0fd.js" crossorigin="anonymous"></script>
+    <title>Taylor Camacho Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="Images/TC-trans copy.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="my-work.html">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi im <span>Taylor</span></h1>
+                <p> a Multi Media Designer</p>
+            </div>
+        </div>
+    </div>
+    <!--About Me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am artist from Canada that loves to spend 
+                        my free time creating aesthetically pleasing visuals
+                        that has a work/hussle get it done mindset. 
+                    </p>
+                           <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Figma, Adobe XD</li>
+                                <li><span>Web Development</span><br>HTML,CSS,JavaScript</li>
+                                <li><span>Videography/Video Editing</span><br>After Effects, Premiere Pro</li>
+                                <li><span>Graphic Design</span><br>Illustrator, Photoshop, Blender, </li>
+                            </ul>
+
+                           </div>
+                           <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Training at Humber College</li>
+                                <li><span>2021 - 2022</span><br>Infographic Videos For Gvex</li>
+                                <li><span>2022 - 2023</span><br>Jewelry ads for ICECI</li>
+                                <li><span>2023 - 2023</span><br>Shirt Designs for Rapper Ghostface600</li>
+                                <li><span></span><br></li>
+                            </ul>
+
+                           </div>
+                           <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - Current </span><br>Humber College<br>Graphic Design</li>
+                                <li><span>2019 - 2021 </span><br>Centennial College<br>AirFrame Assembly</li>
+
+                                
+                            </ul>
+
+                           </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>To help you design and create meaningful digital experiences
+                         that are visually appealing, navigable, and user-friendly.
+                          focusing on the arrangement of elements on a website,
+                           including text, images, videos, and more.</p>
+                           
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI</h2>
+                    <p> To help you design user interfaces that are both
+                        attractive and easy to use. using
+                        a combination of research, analytics, and design
+                        principles to create products that meet the needs of
+                        users, both in terms of functionality and aesthetics.</p>
+                           
+                </div>
+                
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-video"></i>
+                    <h2>Videography/Edit</h2>
+                    <p>I offer help with Videography 
+                        or Editing to create 
+                        video footage and make a professionally
+                        finished product.</p>
+                           
+                </div>
+                <div>
+                    <i class="fa-solid fa-paint-roller"></i>
+                    <h2>Graphic Design</h2>
+                    <p> Creating visual designs that are both
+                        aesthetically pleasing and effective
+                        compositions that communicate a message to your audience.
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!--My Portfolio-->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <video autoplay loop muted plays-inline>
+                        <source src="Images/iceci-adv1.mp4" type="video/mp4">
+                    </video>
+                    <div class="layer">
+                        <h3>Video Editing</h3>
+                        <p>Specialized in Video editing for Music Videos
+                            or social media content. (Tiktok,Instagram,Youtube)
+                        </p>
+                        <a href="videos.html"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <video autoplay loop muted plays-inline>
+                        <source src="Images/Angel copy.mp4" type="video/mp4">
+                    </video>
+                    <div class="layer">
+                        <h3>3D Artwork</h3>
+                        <p>Specialized in the program Blender making 3d rendering of
+                            typography,logos,models,etc.
+                        </p>
+                        <a href="my-work.html"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/skull.jpg" alt="">
+                    <div class="layer">
+                        <h3>Designs</h3>
+                        <p>Specialized in creating compelling designs with technical expertise.
+                           Translating client's visions into impactful visual solutions that leave a lasting impression. 
+                        </p>
+                        <a href="my-work.html"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="my-work.html" class="btn">See More</a>
+        </div>
+     </div>
+
+     <!---------Contact--------->
+
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>taylorcamacho39@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(416)-357 7727</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/taydoeu/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Sero113" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/taylor-camacho-2659a51b1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Tays-Resume-update copy.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="https://formsubmit.co/taylorcamacho39@gmail.com" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email"  required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+     </div>
+    <div class="footer">
+        <div class="copyright">
+            <h4>&copy;  Taylor Camacho 2023 Mywebsite</h4>
+
+        </div>
+        
+    </div>
+
+    <script>
+       
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+    for (tablink of tablinks){
+         tablink.classList.remove("active-link");
+        }
+
+         for (tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+
+    </script>
+
+    <script>
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+    sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+    sidemenu.style.right = "-200px";
+    }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw0pSp10FwWv7-zgeORxUqFOIgY0EOpJF3GquMR2EyYIFPPmfodcmsX5vGNN_td_8gR2Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+            msg.innerHTML = ""
+            },5000)
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>

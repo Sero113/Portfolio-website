@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8dec6c0fd.js" crossorigin="anonymous"></script>
+    <title>3D Designs</title>
+</head>
+<body>
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="Images/TC-trans copy.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="my-work.html">My Work</a></li>
+                    
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 id="workh1">3D Designs</h1>
+            <div class="work-list list2">
+                <div class="work">
+                    <video autoplay loop muted plays-inline>
+                        <source src="Images/inflate-heart copy.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="work">
+                    <video autoplay loop muted plays-inline>
+                        <source src="Images/Angel copy.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="work">
+                    <video autoplay loop muted plays-inline>
+                        <source src="Images/Vak-large.mov0000-0200 copy.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+            
+        </div>
+        
+     </div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+   sidemenu.style.right = "0";
+   }
+
+   function closemenu(){
+   sidemenu.style.right = "-200px";
+   }
+   </script>
+    
+</body>
+</html>
